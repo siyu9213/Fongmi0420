@@ -2,23 +2,29 @@
   "spider": "./jar/fty.jar;md5;5d951f2dbd9e24ce7cc82c59d46f8417",
   "sites": [
     {
+      "key": "玩偶",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "aliToken": "file://tvfan/token.txt",
+        "quarkCookie": "file://tvfan/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://api.wogg.xyz/",
+        "danMu": "弹"
+      }
+    },
+    {
       "key": "drpy_js_JustLive",
-      "name": "🖖JustLive┃潇洒1949",
+      "name": "🖖JustLive┃潇洒",
       "type": 3,
       "searchable": 1,
       "changeable": 0,
       "api": "./lib/drpy.min.js",
       "ext": "./js/JustLive.js"
-    },
-    {
-      "key": "meowtv_czys",
-      "name": "📔厂长┃喵影视",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "http://meowtv.cn/meow1;md5;D1115D99527D75948D095085B1407ADD",
-      "ext": "https://www.czzy88.com/"
     },
     {
       "key": "Bili",
@@ -34,29 +40,96 @@
       "ext": "./js/Bilibili.json"
     },
     {
-      "key": "玩偶哥哥",
-      "name": "👽玩偶┃弹幕",
+      "key": "酷看",
+      "name": "💡酷看┃秒播",
       "type": 3,
-      "api": "csp_WoGG",
+      "api": "csp_Kkys",
+      "timeout": 15,
       "searchable": 1,
-      "changeable": 0,
-      "ext": "file://tvfan/token.txt+auto|4k$$$https://www.wogg.xyz/$$$弹"
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "原创",
+      "name": "☀原创┃无广",
+      "type": 3,
+      "api": "csp_YCyz",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "苹果",
+      "name": "🍎苹果┃无广",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "白嫖",
+      "name": "👻白飘┃无广",
+      "type": 3,
+      "api": "csp_BaiPiao",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.baipiaoys.com:9092/"
+    },
+    {
+      "key": "视觉",
+      "name": "👓视觉┃直连",
+      "type": 3,
+      "api": "csp_Xinsj",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.80yy3.com/"
+    },
+    {
+      "key": "厂长",
+      "name": "📔厂长┃无广",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.cz233.com/"
     },
     {
       "key": "南瓜",
       "name": "🎃南瓜┃App",
       "type": 3,
       "api": "csp_NanGua",
+      "timeout": 15,
       "playerType": 2,
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "77",
-      "name": "👒七七┃App",
+      "key": "低端",
+      "name": "⏮️低端┃外剧",
       "type": 3,
-      "api": "csp_Kunyu77",
+      "api": "csp_Ddrk",
+      "playerType": "2",
       "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "🚌动漫┃巴士",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
