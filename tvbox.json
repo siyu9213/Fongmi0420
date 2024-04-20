@@ -1,0 +1,95 @@
+{
+  "spider": "./jar/fan.jar;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2",
+  "sites": [
+    {
+      "key": "drpy_js_JustLive",
+      "name": "🖖JustLive┃潇洒",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 0,
+      "api": "./lib/drpy.min.js",
+      "ext": "./js/JustLive.js"
+    },
+    {
+      "key": "meowtv_czys",
+      "name": "📔厂长┃喵影视",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "http://meowtv.cn/meow1;md5;D1115D99527D75948D095085B1407ADD",
+      "ext": "https://www.czzy88.com/"
+    },
+    {
+      "key": "Bili",
+      "name": "🅱哔哩┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./js/Bilibili.json"
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "👽玩偶┃弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "file://tvfan/token.txt+auto|4k$$$https://www.wogg.xyz/$$$弹"
+    },
+    {
+      "key": "南瓜",
+      "name": "🎃南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua",
+      "playerType": 2,
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "77",
+      "name": "👒七七┃App",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "push_agent",
+      "name": "🛴手机┃推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "file://tvfan/token.txt+fhd|auto|4k"
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "url": "./livezb.txt",
+      "type": 0,
+      "playerType": 1,
+      "timeout": 3,
+      "ua": "okhttp/3.15",
+      //"logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+    },
+    {
+      "name": "live2",
+      "url": "./livezb2.txt",
+      "type": 0,
+      "playerType": 1,
+      "timeout": 3,
+      "ua": "okhttp/3.15",
+      //"logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+    }
+  ],
+  "wallpaper": "http://www.kf666888.cn/api/tvbox/img"
+}
