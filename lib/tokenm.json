@@ -1,8 +1,0 @@
-{
-  "quark_thread_limit":10,
-  "quark_is_vip":true,
-  "quark_vip_thread_limit":10,
-  "quark_flags":"4kz|2k|super|high|low|normal",
-  "quark_danmu":false,
-  "quark_cookie":"http://localhost:9978/file/download/quark_cookie.txt"
-}
