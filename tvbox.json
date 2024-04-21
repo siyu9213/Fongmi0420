@@ -1,9 +1,9 @@
 {
-  "spider": "./jar/fty.jar;md5;5d951f2dbd9e24ce7cc82c59d46f8417",
+  "spider": "./fty.jar;md5;5d951f2dbd9e24ce7cc82c59d46f8417",
   "sites": [
     {
       "key": "豆豆",
-      "name": "更新时间：0421 0901",
+      "name": "更新时间：0421 0928",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -16,9 +16,9 @@
       "type": 3,
       "searchable": 1,
       "changeable": 0,
-      "api": "./lib/drpy.min.js",
-      "jar": "./jar/fan.jar",
-      "ext": "./js/JustLive.js"
+      "api": "./libs/drpy.min.js",
+      "jar": "./libs/fan.jar",
+      "ext": "./libs/JustLive.js"
     },
     {
       "key": "Bili",
@@ -31,8 +31,8 @@
       },
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/fan.jar",
-      "ext": "./js/Bilibili.json"
+      "jar": "./libs/fan.jar",
+      "ext": "./libs/Bilibili.json"
     },
     {
       "key": "玩偶哥哥",
@@ -41,7 +41,7 @@
       "api": "csp_WoGG",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/fan.jar",
+      "jar": "./libs/fan.jar",
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd$$$https://www.wogg.xyz/$$$弹"
     },
     // ========================================================================
@@ -169,7 +169,7 @@
   "lives": [
     {
       "name": "live",
-      "url": "./livezb.txt",
+      "url": "./libs/livezb.txt",
       "type": 0,
       "playerType": 1,
       "timeout": 1,
