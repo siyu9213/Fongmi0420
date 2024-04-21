@@ -2,20 +2,13 @@
   "spider": "./jar/fty.jar;md5;5d951f2dbd9e24ce7cc82c59d46f8417",
   "sites": [
     {
-      "key": "玩偶",
-      "name": "👽玩偶哥哥┃4K弹幕",
+      "key": "cc",
+      "name": "更新时间：0421 0858",
       "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "aliToken": "file://tvfan/token.txt",
-        "quarkCookie": "file://tvfan/cookie.txt",
-        "from": "4k|auto|fhd",
-        "siteUrl": "https://api.wogg.xyz/",
-        "danMu": "弹"
-      }
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "drpy_js_JustLive",
@@ -24,6 +17,7 @@
       "searchable": 1,
       "changeable": 0,
       "api": "./lib/drpy.min.js",
+      "jar": "./jar/fan.jar",
       "ext": "./js/JustLive.js"
     },
     {
@@ -37,7 +31,37 @@
       },
       "searchable": 1,
       "changeable": 0,
+      "jar": "./jar/fan.jar",
       "ext": "./js/Bilibili.json"
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "👽玩偶┃弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "./jar/fan.jar",
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd$$$https://www.wogg.xyz/$$$弹"
+    },
+    "----------------------------------------------------------------------------------------------------------------",
+    "----------------------------------------------------------------------------------------------------------------",
+    "----------------------------------------------------------------------------------------------------------------",
+    {
+      "key": "玩偶",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/tvfan/token.txt",
+        "quarkCookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://api.wogg.xyz/",
+        "danMu": "弹"
+      }
     },
     {
       "key": "酷看",
@@ -139,7 +163,7 @@
       "api": "csp_Push",
       "searchable": 0,
       "changeable": 0,
-      "ext": "file://tvfan/token.txt+fhd|auto|4k"
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     }
   ],
   "lives": [
@@ -148,7 +172,7 @@
       "url": "./livezb.txt",
       "type": 0,
       "playerType": 1,
-      "timeout": 3,
+      "timeout": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
