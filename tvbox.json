@@ -168,7 +168,7 @@
   ],
   "lives": [
         {"name": "live", "url": "./libs/livezb.txt", "timeout": 3},
-        {"group": "redirect", "channels": [{"name": "redirect", "urls": ["proxy://do=live&type=txt&ext=./libs/livezb.txt"]}]}
+        {"group": "redirect", "channels": [{"name": "redirect", "urls": ["proxy://do=live&type=txt&ext=http://127.0.0.1:9978/file/TV/libs/livezb.txt"]}]}
   ],
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img"
 }
