@@ -168,9 +168,9 @@
   ],
   "lives": [
     {
-      "name": "livezb",
+      "name": "live",
       "url": "./libs/livezb.txt",
-      "timeout": 3,
+      "timeout": 3
     }
   ],
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img"
